@@ -1,0 +1,1887 @@
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//OpenAI//FIFA World Cup 2026 Schedule//EN
+
+CALSCALE:GREGORIAN
+
+METHOD:PUBLISH
+
+X-WR-CALNAME:FIFA World Cup 2026
+
+X-WR-TIMEZONE:America/New_York
+
+BEGIN:VEVENT
+
+UID:1-world-cup-2026-0f2cf436-66d2-4cf3-862f-feef67ff15a8@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260611T190000Z
+
+DTEND:20260611T210000Z
+
+SUMMARY:Mexico (15) vs South Africa (60)
+
+LOCATION:Estadio Azteca\, Mexico City\, Mexico
+
+DESCRIPTION:Group A\\nMatch 1\\nTeams: Mexico (15) vs South Africa (60)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:2-world-cup-2026-1e52e9b3-59d2-4140-a97c-b347e4306f52@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260612T020000Z
+
+DTEND:20260612T040000Z
+
+SUMMARY:South Korea (25) vs Czech Republic (41)
+
+LOCATION:Estadio Akron\, Zapopan\, Mexico
+
+DESCRIPTION:Group A\\nMatch 2\\nTeams: South Korea (25) vs Czech Republic (41)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:3-world-cup-2026-bef7c6ae-b275-40c3-b199-680aae9b3077@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260612T190000Z
+
+DTEND:20260612T210000Z
+
+SUMMARY:Canada (30) vs Bosnia and Herzegovina (65)
+
+LOCATION:BMO Field\, Toronto\, Canada
+
+DESCRIPTION:Group B\\nMatch 3\\nTeams: Canada (30) vs Bosnia and Herzegovina (65)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:4-world-cup-2026-4e113648-eb27-4893-996a-13908b8c66d2@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260613T010000Z
+
+DTEND:20260613T030000Z
+
+SUMMARY:United States (16) vs Paraguay (40)
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Group D\\nMatch 4\\nTeams: United States (16) vs Paraguay (40)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:8-world-cup-2026-0f3415a4-06be-4fa1-9fa9-6072fd8ccd13@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260613T190000Z
+
+DTEND:20260613T210000Z
+
+SUMMARY:Qatar (55) vs Switzerland (19)
+
+LOCATION:Levi's Stadium\, Santa Clara\, California
+
+DESCRIPTION:Group B\\nMatch 8\\nTeams: Qatar (55) vs Switzerland (19)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:7-world-cup-2026-a27f9599-575b-4053-a073-fa0c043e3d79@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260613T220000Z
+
+DTEND:20260614T000000Z
+
+SUMMARY:Brazil (6) vs Morocco (8)
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Group C\\nMatch 7\\nTeams: Brazil (6) vs Morocco (8)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:5-world-cup-2026-7f43fc26-1b3c-42e6-bd92-84c83f61b49d@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260614T010000Z
+
+DTEND:20260614T030000Z
+
+SUMMARY:Haiti (83) vs Scotland (43)
+
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+
+DESCRIPTION:Group C\\nMatch 5\\nTeams: Haiti (83) vs Scotland (43)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:6-world-cup-2026-c880c84a-366f-4340-afea-2e981a8eade1@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260614T040000Z
+
+DTEND:20260614T060000Z
+
+SUMMARY:Australia (27) vs Turkey (22)
+
+LOCATION:BC Place\, Vancouver\, Canada
+
+DESCRIPTION:Group D\\nMatch 6\\nTeams: Australia (27) vs Turkey (22)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:10-world-cup-2026-632bfcd6-9a05-4333-84db-452de64d808d@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260614T170000Z
+
+DTEND:20260614T190000Z
+
+SUMMARY:Germany (10) vs Curaçao (82)
+
+LOCATION:NRG Stadium\, Houston\, Texas
+
+DESCRIPTION:Group E\\nMatch 10\\nTeams: Germany (10) vs Curaçao (82)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:11-world-cup-2026-0394c620-02c2-4699-a877-4a0a7eb6c265@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260614T200000Z
+
+DTEND:20260614T220000Z
+
+SUMMARY:Netherlands (7) vs Japan (18)
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Group F\\nMatch 11\\nTeams: Netherlands (7) vs Japan (18)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:9-world-cup-2026-5035eecb-05fd-47d8-95c4-7990633b1724@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260614T230000Z
+
+DTEND:20260615T010000Z
+
+SUMMARY:Ivory Coast (34) vs Ecuador (23)
+
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania
+
+DESCRIPTION:Group E\\nMatch 9\\nTeams: Ivory Coast (34) vs Ecuador (23)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:12-world-cup-2026-da2ff1c3-a24e-46d5-a8d9-0b91d437e94c@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260615T020000Z
+
+DTEND:20260615T040000Z
+
+SUMMARY:Sweden (38) vs Tunisia (44)
+
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+
+DESCRIPTION:Group F\\nMatch 12\\nTeams: Sweden (38) vs Tunisia (44)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:14-world-cup-2026-6d666c7a-9dd5-4e15-9f8b-3def6aada29a@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260615T160000Z
+
+DTEND:20260615T180000Z
+
+SUMMARY:Spain (2) vs Cape Verde (69)
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Group H\\nMatch 14\\nTeams: Spain (2) vs Cape Verde (69)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:16-world-cup-2026-46b14aef-0799-468b-9d87-7f394973b671@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260615T190000Z
+
+DTEND:20260615T210000Z
+
+SUMMARY:Belgium (9) vs Egypt (29)
+
+LOCATION:Lumen Field\, Seattle\, Washington
+
+DESCRIPTION:Group G\\nMatch 16\\nTeams: Belgium (9) vs Egypt (29)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:13-world-cup-2026-51d0a03a-23aa-401a-b104-eff0b5684323@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260615T220000Z
+
+DTEND:20260616T000000Z
+
+SUMMARY:Saudi Arabia (61) vs Uruguay (17)
+
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida
+
+DESCRIPTION:Group H\\nMatch 13\\nTeams: Saudi Arabia (61) vs Uruguay (17)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:15-world-cup-2026-e23120a6-f1d7-434e-8611-3c7e979d11c9@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260616T010000Z
+
+DTEND:20260616T030000Z
+
+SUMMARY:Iran (21) vs New Zealand (85)
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Group G\\nMatch 15\\nTeams: Iran (21) vs New Zealand (85)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:17-world-cup-2026-d07e2537-ddbf-44da-8272-f696e17b7618@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260616T190000Z
+
+DTEND:20260616T210000Z
+
+SUMMARY:France (1) vs Senegal (14)
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Group I\\nMatch 17\\nTeams: France (1) vs Senegal (14)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:18-world-cup-2026-bcd8a2ba-34bd-45bb-9198-05cde14e448b@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260616T220000Z
+
+DTEND:20260617T000000Z
+
+SUMMARY:Iraq (57) vs Norway (31)
+
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+
+DESCRIPTION:Group I\\nMatch 18\\nTeams: Iraq (57) vs Norway (31)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:19-world-cup-2026-a5aff527-2ab7-408e-9c36-75d89bd3ab25@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260617T010000Z
+
+DTEND:20260617T030000Z
+
+SUMMARY:Argentina (3) vs Algeria (28)
+
+LOCATION:Arrowhead Stadium\, Kansas City\, Missouri
+
+DESCRIPTION:Group J\\nMatch 19\\nTeams: Argentina (3) vs Algeria (28)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:20-world-cup-2026-1e52505c-acbe-4d4d-935c-da7d7deb83b0@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260617T040000Z
+
+DTEND:20260617T060000Z
+
+SUMMARY:Austria (24) vs Jordan (63)
+
+LOCATION:Levi's Stadium\, Santa Clara\, California
+
+DESCRIPTION:Group J\\nMatch 20\\nTeams: Austria (24) vs Jordan (63)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:23-world-cup-2026-7179b7f5-fbb7-41d7-8133-b9a76f5aad35@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260617T170000Z
+
+DTEND:20260617T190000Z
+
+SUMMARY:Portugal (5) vs DR Congo (46)
+
+LOCATION:NRG Stadium\, Houston\, Texas
+
+DESCRIPTION:Group K\\nMatch 23\\nTeams: Portugal (5) vs DR Congo (46)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:22-world-cup-2026-8f2d0213-d3c0-4963-a6a5-0fe73ac92407@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260617T200000Z
+
+DTEND:20260617T220000Z
+
+SUMMARY:England (4) vs Croatia (11)
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Group L\\nMatch 22\\nTeams: England (4) vs Croatia (11)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:21-world-cup-2026-7ce12f9e-95f1-4a41-9669-04d74d49748e@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260617T230000Z
+
+DTEND:20260618T010000Z
+
+SUMMARY:Ghana (74) vs Panama (33)
+
+LOCATION:Toronto Stadium\, Toronto\, Canada
+
+DESCRIPTION:Group L\\nMatch 21\\nTeams: Ghana (74) vs Panama (33)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:24-world-cup-2026-151daf38-af88-425d-a038-69e32725a05d@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260618T020000Z
+
+DTEND:20260618T040000Z
+
+SUMMARY:Uzbekistan (50) vs Colombia (13)
+
+LOCATION:Estadio Azteca\, Mexico City\, Mexico
+
+DESCRIPTION:Group K\\nMatch 24\\nTeams: Uzbekistan (50) vs Colombia (13)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:25-world-cup-2026-ded46217-1099-4a7e-8283-2fc68d89bd59@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260618T160000Z
+
+DTEND:20260618T180000Z
+
+SUMMARY:Czech Republic (41) vs South Africa (60)
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Group A\\nMatch 25\\nTeams: Czech Republic (41) vs South Africa (60)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:26-world-cup-2026-f46b227d-8629-4990-bb16-7fb6d5809668@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260618T190000Z
+
+DTEND:20260618T210000Z
+
+SUMMARY:Switzerland (19) vs Bosnia and Herzegovina (65)
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Group B\\nMatch 26\\nTeams: Switzerland (19) vs Bosnia and Herzegovina (65)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:27-world-cup-2026-fcd040a7-ca92-403f-b1ab-6d53a3a59a5a@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260618T220000Z
+
+DTEND:20260619T000000Z
+
+SUMMARY:Canada (30) vs Qatar (55)
+
+LOCATION:BC Place\, Vancouver\, Canada
+
+DESCRIPTION:Group B\\nMatch 27\\nTeams: Canada (30) vs Qatar (55)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:28-world-cup-2026-c734d4a7-3ae7-45e0-8eac-90d75f24c966@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260619T010000Z
+
+DTEND:20260619T030000Z
+
+SUMMARY:Mexico (15) vs South Korea (25)
+
+LOCATION:Estadio Akron\, Zapopan\, Mexico
+
+DESCRIPTION:Group A\\nMatch 28\\nTeams: Mexico (15) vs South Korea (25)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:32-world-cup-2026-330f6ea2-4db7-44bc-978e-5dfc8f4cc742@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260619T190000Z
+
+DTEND:20260619T210000Z
+
+SUMMARY:United States (16) vs Australia (27)
+
+LOCATION:Lumen Field\, Seattle\, Washington
+
+DESCRIPTION:Group D\\nMatch 32\\nTeams: United States (16) vs Australia (27)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:30-world-cup-2026-3f4633da-7526-487a-8542-75b2e5f0113b@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260619T220000Z
+
+DTEND:20260620T000000Z
+
+SUMMARY:Scotland (43) vs Morocco (8)
+
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+
+DESCRIPTION:Group C\\nMatch 30\\nTeams: Scotland (43) vs Morocco (8)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:29-world-cup-2026-d5bc7164-72e9-482b-96c9-920cda6ed95a@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260620T003000Z
+
+DTEND:20260620T023000Z
+
+SUMMARY:Brazil (6) vs Haiti (83)
+
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania
+
+DESCRIPTION:Group C\\nMatch 29\\nTeams: Brazil (6) vs Haiti (83)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:31-world-cup-2026-6ddd8e71-2d4a-486f-8ac4-2307d931f107@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260620T030000Z
+
+DTEND:20260620T050000Z
+
+SUMMARY:Turkey (22) vs Paraguay (40)
+
+LOCATION:Levi's Stadium\, Santa Clara\, California
+
+DESCRIPTION:Group D\\nMatch 31\\nTeams: Turkey (22) vs Paraguay (40)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:35-world-cup-2026-a893f5ac-1cd3-4cdf-84c6-f1ec205ae2e7@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260620T170000Z
+
+DTEND:20260620T190000Z
+
+SUMMARY:Netherlands (7) vs Sweden (38)
+
+LOCATION:NRG Stadium\, Houston\, Texas
+
+DESCRIPTION:Group F\\nMatch 35\\nTeams: Netherlands (7) vs Sweden (38)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:33-world-cup-2026-ee479eed-eae6-489c-8a28-1d4ca43d11ec@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260620T200000Z
+
+DTEND:20260620T220000Z
+
+SUMMARY:Germany (10) vs Ivory Coast (34)
+
+LOCATION:BMO Field\, Toronto\, Canada
+
+DESCRIPTION:Group E\\nMatch 33\\nTeams: Germany (10) vs Ivory Coast (34)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:34-world-cup-2026-5a053a12-ed75-4db1-8677-e7ff6150ebe3@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260621T000000Z
+
+DTEND:20260621T020000Z
+
+SUMMARY:Ecuador (23) vs Curaçao (82)
+
+LOCATION:Arrowhead Stadium\, Kansas City\, Missouri
+
+DESCRIPTION:Group E\\nMatch 34\\nTeams: Ecuador (23) vs Curaçao (82)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:36-world-cup-2026-af4dd3ac-76cd-41d3-bed0-afa170b2587c@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260621T040000Z
+
+DTEND:20260621T060000Z
+
+SUMMARY:Tunisia (44) vs Japan (18)
+
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+
+DESCRIPTION:Group F\\nMatch 36\\nTeams: Tunisia (44) vs Japan (18)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:38-world-cup-2026-9ff8af0f-9be0-4d71-aaf1-c159e88e3dfb@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260621T160000Z
+
+DTEND:20260621T180000Z
+
+SUMMARY:Spain (2) vs Saudi Arabia (61)
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Group H\\nMatch 38\\nTeams: Spain (2) vs Saudi Arabia (61)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:39-world-cup-2026-3f1c1968-8cdb-4a89-a19e-c02ae320f822@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260621T190000Z
+
+DTEND:20260621T210000Z
+
+SUMMARY:Belgium (9) vs Iran (21)
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Group G\\nMatch 39\\nTeams: Belgium (9) vs Iran (21)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:37-world-cup-2026-b8c98e10-0a42-46d9-85d8-91f8cca508e5@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260621T220000Z
+
+DTEND:20260622T000000Z
+
+SUMMARY:Uruguay (17) vs Cape Verde (69)
+
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida
+
+DESCRIPTION:Group H\\nMatch 37\\nTeams: Uruguay (17) vs Cape Verde (69)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:40-world-cup-2026-b5053c2f-75ac-4a00-8b77-3f70c4611be7@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260622T010000Z
+
+DTEND:20260622T030000Z
+
+SUMMARY:New Zealand (85) vs Egypt (29)
+
+LOCATION:BC Place\, Vancouver\, Canada
+
+DESCRIPTION:Group G\\nMatch 40\\nTeams: New Zealand (85) vs Egypt (29)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:43-world-cup-2026-2541572c-a878-417a-873b-3b0ed5819690@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260622T170000Z
+
+DTEND:20260622T190000Z
+
+SUMMARY:Argentina (3) vs Austria (24)
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Group J\\nMatch 43\\nTeams: Argentina (3) vs Austria (24)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:42-world-cup-2026-74593743-24ea-451c-a07b-fdfe834ee863@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260622T210000Z
+
+DTEND:20260622T230000Z
+
+SUMMARY:France (1) vs Iraq (57)
+
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania
+
+DESCRIPTION:Group I\\nMatch 42\\nTeams: France (1) vs Iraq (57)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:41-world-cup-2026-7960530a-3077-4a68-b806-084cab9808a7@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260623T000000Z
+
+DTEND:20260623T020000Z
+
+SUMMARY:Norway (31) vs Senegal (14)
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Group I\\nMatch 41\\nTeams: Norway (31) vs Senegal (14)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:44-world-cup-2026-817d9b4b-c51b-4adc-8af9-f92839388d9b@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260623T030000Z
+
+DTEND:20260623T050000Z
+
+SUMMARY:Jordan (63) vs Algeria (28)
+
+LOCATION:Levi's Stadium\, Santa Clara\, California
+
+DESCRIPTION:Group J\\nMatch 44\\nTeams: Jordan (63) vs Algeria (28)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:47-world-cup-2026-4218a6da-5690-4284-8e54-7565073e7b12@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260623T170000Z
+
+DTEND:20260623T190000Z
+
+SUMMARY:Portugal (5) vs Uzbekistan (50)
+
+LOCATION:NRG Stadium\, Houston\, Texas
+
+DESCRIPTION:Group K\\nMatch 47\\nTeams: Portugal (5) vs Uzbekistan (50)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:45-world-cup-2026-06267aa7-4560-40ac-846c-7f16cdb7143d@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260623T200000Z
+
+DTEND:20260623T220000Z
+
+SUMMARY:England (4) vs Ghana (74)
+
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+
+DESCRIPTION:Group L\\nMatch 45\\nTeams: England (4) vs Ghana (74)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:46-world-cup-2026-dff39e9b-6562-42d9-b812-0784b33d2b57@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260623T230000Z
+
+DTEND:20260624T010000Z
+
+SUMMARY:Panama (33) vs Croatia (11)
+
+LOCATION:Toronto Stadium\, Toronto\, Canada
+
+DESCRIPTION:Group L\\nMatch 46\\nTeams: Panama (33) vs Croatia (11)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:48-world-cup-2026-3edcf7e2-65a1-440d-bbe0-be4d29738a9b@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260624T020000Z
+
+DTEND:20260624T040000Z
+
+SUMMARY:Colombia (13) vs DR Congo (46)
+
+LOCATION:Estadio Akron\, Zapopan\, Mexico
+
+DESCRIPTION:Group K\\nMatch 48\\nTeams: Colombia (13) vs DR Congo (46)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:51-world-cup-2026-db940077-76da-45d0-8f37-0292a0fb6e3d@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260624T190000Z
+
+DTEND:20260624T210000Z
+
+SUMMARY:Switzerland (19) vs Canada (30)
+
+LOCATION:BC Place\, Vancouver\, Canada
+
+DESCRIPTION:Group B\\nMatch 51\\nTeams: Switzerland (19) vs Canada (30)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:52-world-cup-2026-da690b79-2e17-4406-a367-76375e470eaf@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260624T190000Z
+
+DTEND:20260624T210000Z
+
+SUMMARY:Bosnia and Herzegovina (65) vs Qatar (55)
+
+LOCATION:Lumen Field\, Seattle\, Washington
+
+DESCRIPTION:Group B\\nMatch 52\\nTeams: Bosnia and Herzegovina (65) vs Qatar (55)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:49-world-cup-2026-5a0a893b-4f03-45bf-9a69-b1eff983735a@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260624T220000Z
+
+DTEND:20260625T000000Z
+
+SUMMARY:Scotland (43) vs Brazil (6)
+
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida
+
+DESCRIPTION:Group C\\nMatch 49\\nTeams: Scotland (43) vs Brazil (6)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:50-world-cup-2026-8d08ae00-28b5-4fc0-bb76-2310b77c54a3@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260624T220000Z
+
+DTEND:20260625T000000Z
+
+SUMMARY:Morocco (8) vs Haiti (83)
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Group C\\nMatch 50\\nTeams: Morocco (8) vs Haiti (83)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:53-world-cup-2026-c886b7c5-923a-4dbf-8fd3-a1ab4d0315fa@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260625T010000Z
+
+DTEND:20260625T030000Z
+
+SUMMARY:Czech Republic (41) vs Mexico (15)
+
+LOCATION:Estadio Azteca\, Mexico City\, Mexico
+
+DESCRIPTION:Group A\\nMatch 53\\nTeams: Czech Republic (41) vs Mexico (15)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:54-world-cup-2026-9877f3a5-da19-4832-883d-bff70f4fcfe0@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260625T010000Z
+
+DTEND:20260625T030000Z
+
+SUMMARY:South Africa (60) vs South Korea (25)
+
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+
+DESCRIPTION:Group A\\nMatch 54\\nTeams: South Africa (60) vs South Korea (25)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:55-world-cup-2026-200c3cdd-6059-4e28-9722-8da304fb9491@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260625T200000Z
+
+DTEND:20260625T220000Z
+
+SUMMARY:Curaçao (82) vs Ivory Coast (34)
+
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania
+
+DESCRIPTION:Group E\\nMatch 55\\nTeams: Curaçao (82) vs Ivory Coast (34)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:56-world-cup-2026-271ea849-5dc8-43fd-8915-171c56c8a0d4@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260625T200000Z
+
+DTEND:20260625T220000Z
+
+SUMMARY:Ecuador (23) vs Germany (10)
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Group E\\nMatch 56\\nTeams: Ecuador (23) vs Germany (10)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:57-world-cup-2026-21d37d0b-f58c-414c-b891-e69cc856685c@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260625T230000Z
+
+DTEND:20260626T010000Z
+
+SUMMARY:Japan (18) vs Sweden (38)
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Group F\\nMatch 57\\nTeams: Japan (18) vs Sweden (38)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:58-world-cup-2026-8a9c9700-71eb-4315-8cfc-4dfbea2d7341@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260625T230000Z
+
+DTEND:20260626T010000Z
+
+SUMMARY:Tunisia (44) vs Netherlands (7)
+
+LOCATION:Arrowhead Stadium\, Kansas City\, Missouri
+
+DESCRIPTION:Group F\\nMatch 58\\nTeams: Tunisia (44) vs Netherlands (7)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:59-world-cup-2026-d2223592-0e5d-43e9-aa6d-4006d55868f7@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260626T020000Z
+
+DTEND:20260626T040000Z
+
+SUMMARY:Turkey (22) vs United States (16)
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Group D\\nMatch 59\\nTeams: Turkey (22) vs United States (16)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:60-world-cup-2026-3d72947f-b8e9-4fb0-9911-b22509f1556e@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260626T020000Z
+
+DTEND:20260626T040000Z
+
+SUMMARY:Paraguay (40) vs Australia (27)
+
+LOCATION:Levi's Stadium\, Santa Clara\, California
+
+DESCRIPTION:Group D\\nMatch 60\\nTeams: Paraguay (40) vs Australia (27)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:61-world-cup-2026-c2bcf49a-3781-4fac-90b5-2919ae85ae27@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260626T190000Z
+
+DTEND:20260626T210000Z
+
+SUMMARY:Norway (31) vs France (1)
+
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+
+DESCRIPTION:Group I\\nMatch 61\\nTeams: Norway (31) vs France (1)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:62-world-cup-2026-47a3cfeb-266b-4f33-a28e-c84cc5bc2f6f@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260626T190000Z
+
+DTEND:20260626T210000Z
+
+SUMMARY:Senegal (14) vs Iraq (57)
+
+LOCATION:BMO Field\, Toronto\, Canada
+
+DESCRIPTION:Group I\\nMatch 62\\nTeams: Senegal (14) vs Iraq (57)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:65-world-cup-2026-753dfc4b-d1c0-4fa6-b7b8-3afe3f2452a6@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T000000Z
+
+DTEND:20260627T020000Z
+
+SUMMARY:Cape Verde (69) vs Saudi Arabia (61)
+
+LOCATION:NRG Stadium\, Houston\, Texas
+
+DESCRIPTION:Group H\\nMatch 65\\nTeams: Cape Verde (69) vs Saudi Arabia (61)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:66-world-cup-2026-78da847f-5eb4-4101-bcfe-cf1011b94309@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T000000Z
+
+DTEND:20260627T020000Z
+
+SUMMARY:Uruguay (17) vs Spain (2)
+
+LOCATION:Estadio Akron\, Zapopan\, Mexico
+
+DESCRIPTION:Group H\\nMatch 66\\nTeams: Uruguay (17) vs Spain (2)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:63-world-cup-2026-46e4e1f0-bd95-4cf3-a401-cbacdc5f0f44@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T030000Z
+
+DTEND:20260627T050000Z
+
+SUMMARY:Egypt (29) vs Iran (21)
+
+LOCATION:Lumen Field\, Seattle\, Washington
+
+DESCRIPTION:Group G\\nMatch 63\\nTeams: Egypt (29) vs Iran (21)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:64-world-cup-2026-93f30a46-c4d3-47f7-b4fd-098b1c295e0c@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T030000Z
+
+DTEND:20260627T050000Z
+
+SUMMARY:New Zealand (85) vs Belgium (9)
+
+LOCATION:BC Place\, Vancouver\, Canada
+
+DESCRIPTION:Group G\\nMatch 64\\nTeams: New Zealand (85) vs Belgium (9)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:67-world-cup-2026-ee499215-1047-4a8f-95f2-00f59e4db7be@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T210000Z
+
+DTEND:20260627T230000Z
+
+SUMMARY:Panama (33) vs England (4)
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Group L\\nMatch 67\\nTeams: Panama (33) vs England (4)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:68-world-cup-2026-658797cd-6a0f-44b0-94a5-13000395305a@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T210000Z
+
+DTEND:20260627T230000Z
+
+SUMMARY:Croatia (11) vs Ghana (74)
+
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania
+
+DESCRIPTION:Group L\\nMatch 68\\nTeams: Croatia (11) vs Ghana (74)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:71-world-cup-2026-e2d5771f-601b-4027-a15b-0e60d29b9f6a@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T233000Z
+
+DTEND:20260628T013000Z
+
+SUMMARY:Colombia (13) vs Portugal (5)
+
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida
+
+DESCRIPTION:Group K\\nMatch 71\\nTeams: Colombia (13) vs Portugal (5)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:72-world-cup-2026-af2cd8d5-4a0d-43ca-95a9-1b293c5d3ad6@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260627T233000Z
+
+DTEND:20260628T013000Z
+
+SUMMARY:DR Congo (46) vs Uzbekistan (50)
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Group K\\nMatch 72\\nTeams: DR Congo (46) vs Uzbekistan (50)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:69-world-cup-2026-f45801e6-9ae0-408e-893e-9a490573fad8@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260628T020000Z
+
+DTEND:20260628T040000Z
+
+SUMMARY:Algeria (28) vs Austria (24)
+
+LOCATION:Arrowhead Stadium\, Kansas City\, Missouri
+
+DESCRIPTION:Group J\\nMatch 69\\nTeams: Algeria (28) vs Austria (24)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:70-world-cup-2026-3d93bcce-f83e-4f7b-a222-597f901f618f@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260628T020000Z
+
+DTEND:20260628T040000Z
+
+SUMMARY:Jordan (63) vs Argentina (3)
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Group J\\nMatch 70\\nTeams: Jordan (63) vs Argentina (3)\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:73-world-cup-2026-f2dbde39-884d-4567-be66-7060cb99e589@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260628T190000Z
+
+DTEND:20260628T220000Z
+
+SUMMARY:Runner-up Group A vs Runner-up Group B
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Round of 32\\nMatch 73\\nTeams: Runner-up Group A vs Runner-up Group B\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:76-world-cup-2026-caf73a44-afd9-4373-b867-d1a7380fad39@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260629T170000Z
+
+DTEND:20260629T200000Z
+
+SUMMARY:Winner Group C vs Runner-up Group F
+
+LOCATION:NRG Stadium\, Houston\, Texas
+
+DESCRIPTION:Round of 32\\nMatch 76\\nTeams: Winner Group C vs Runner-up Group F\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:74-world-cup-2026-a482d2d2-4d6c-4e67-9cdd-9144e5446c78@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260629T203000Z
+
+DTEND:20260629T233000Z
+
+SUMMARY:Winner Group E vs 3rd Group A/B/C/D/F
+
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+
+DESCRIPTION:Round of 32\\nMatch 74\\nTeams: Winner Group E vs 3rd Group A/B/C/D/F\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:75-world-cup-2026-5781abf6-e242-4274-b521-f085e19c6b2f@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260630T010000Z
+
+DTEND:20260630T040000Z
+
+SUMMARY:Winner Group F vs Runner-up Group C
+
+LOCATION:Estadio BBVA\, Guadalupe\, Mexico
+
+DESCRIPTION:Round of 32\\nMatch 75\\nTeams: Winner Group F vs Runner-up Group C\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:78-world-cup-2026-c00dbd7f-b749-4e86-a24d-77b01673a67b@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260630T170000Z
+
+DTEND:20260630T200000Z
+
+SUMMARY:Runner-up Group E vs Runner-up Group I
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Round of 32\\nMatch 78\\nTeams: Runner-up Group E vs Runner-up Group I\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:77-world-cup-2026-e4c24758-b34c-4f98-91ae-615d107c3489@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260630T210000Z
+
+DTEND:20260701T000000Z
+
+SUMMARY:Winner Group I vs 3rd Group C/D/F/G/H
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Round of 32\\nMatch 77\\nTeams: Winner Group I vs 3rd Group C/D/F/G/H\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:79-world-cup-2026-89df332f-d50a-4a4e-a359-e7876f466955@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260701T010000Z
+
+DTEND:20260701T040000Z
+
+SUMMARY:Winner Group A vs 3rd Group C/E/F/H/I
+
+LOCATION:Estadio Azteca\, Mexico City\, Mexico
+
+DESCRIPTION:Round of 32\\nMatch 79\\nTeams: Winner Group A vs 3rd Group C/E/F/H/I\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:80-world-cup-2026-f4254df5-e973-49cf-9598-0730f193e18d@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260701T160000Z
+
+DTEND:20260701T190000Z
+
+SUMMARY:Winner Group L vs 3rd Group E/H/I/J/K
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Round of 32\\nMatch 80\\nTeams: Winner Group L vs 3rd Group E/H/I/J/K\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:82-world-cup-2026-3f32bb89-c2e4-491f-8a50-6306434508c0@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260701T200000Z
+
+DTEND:20260701T230000Z
+
+SUMMARY:Winner Group G vs 3rd Group A/E/H/I/J
+
+LOCATION:Lumen Field\, Seattle\, Washington
+
+DESCRIPTION:Round of 32\\nMatch 82\\nTeams: Winner Group G vs 3rd Group A/E/H/I/J\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:81-world-cup-2026-082a5106-f400-4762-b1c9-aea6f978962b@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260702T000000Z
+
+DTEND:20260702T030000Z
+
+SUMMARY:Winner Group D vs 3rd Group B/E/F/I/J
+
+LOCATION:Levi's Stadium\, Santa Clara\, California
+
+DESCRIPTION:Round of 32\\nMatch 81\\nTeams: Winner Group D vs 3rd Group B/E/F/I/J\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:84-world-cup-2026-76adb288-7e0b-4c3f-9105-b54cfe7a15ac@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260702T190000Z
+
+DTEND:20260702T220000Z
+
+SUMMARY:Winner Group H vs Runner-up Group J
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Round of 32\\nMatch 84\\nTeams: Winner Group H vs Runner-up Group J\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:83-world-cup-2026-eea289d6-8b25-4a9e-833d-ab91076bdeb0@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260702T230000Z
+
+DTEND:20260703T020000Z
+
+SUMMARY:Runner-up Group K vs Runner-up Group L
+
+LOCATION:BMO Field\, Toronto\, Canada
+
+DESCRIPTION:Round of 32\\nMatch 83\\nTeams: Runner-up Group K vs Runner-up Group L\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:85-world-cup-2026-08064e47-e177-4753-ad99-4cd330003057@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260703T030000Z
+
+DTEND:20260703T060000Z
+
+SUMMARY:Winner Group B vs 3rd Group E/F/G/I/J
+
+LOCATION:BC Place\, Vancouver\, Canada
+
+DESCRIPTION:Round of 32\\nMatch 85\\nTeams: Winner Group B vs 3rd Group E/F/G/I/J\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:88-world-cup-2026-d0e1ce16-6c78-4389-84e7-aee4536344fc@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260703T180000Z
+
+DTEND:20260703T210000Z
+
+SUMMARY:Runner-up Group D vs Runner-up Group G
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Round of 32\\nMatch 88\\nTeams: Runner-up Group D vs Runner-up Group G\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:86-world-cup-2026-b1c98d0c-96ca-417c-9544-d93d58b62af3@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260703T220000Z
+
+DTEND:20260704T010000Z
+
+SUMMARY:Winner Group J vs Runner-up Group H
+
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida
+
+DESCRIPTION:Round of 32\\nMatch 86\\nTeams: Winner Group J vs Runner-up Group H\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:87-world-cup-2026-ba509aa1-e8ce-4c10-bbb0-c3720f9a4c7a@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260704T013000Z
+
+DTEND:20260704T043000Z
+
+SUMMARY:Winner Group K vs 3rd Group D/E/I/J/L
+
+LOCATION:Arrowhead Stadium\, Kansas City\, Missouri
+
+DESCRIPTION:Round of 32\\nMatch 87\\nTeams: Winner Group K vs 3rd Group D/E/I/J/L\\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:90-world-cup-2026-14a5aacb-464d-4d84-8ee8-47cae54508a7@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260704T170000Z
+
+DTEND:20260704T200000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:NRG Stadium\, Houston\, Texas
+
+DESCRIPTION:Round of 16\\nMatch 90\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:89-world-cup-2026-0d0ac3ef-70b5-4907-9c13-410bee84edb1@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260704T210000Z
+
+DTEND:20260705T000000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Lincoln Financial Field\, Philadelphia\, Pennsylvania
+
+DESCRIPTION:Round of 16\\nMatch 89\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:91-world-cup-2026-a1e8f159-dceb-445e-b6ed-96c8ebfa1896@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260705T200000Z
+
+DTEND:20260705T230000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Round of 16\\nMatch 91\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:92-world-cup-2026-f431a1f3-85b0-44cb-9d6b-5030fea5ecf0@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260706T000000Z
+
+DTEND:20260706T030000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Estadio Azteca\, Mexico City\, Mexico
+
+DESCRIPTION:Round of 16\\nMatch 92\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:93-world-cup-2026-f3da22ef-6b09-4b91-815f-84ab71da9bcf@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260706T190000Z
+
+DTEND:20260706T220000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Round of 16\\nMatch 93\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:94-world-cup-2026-1efa76af-b492-4846-8cfb-d9a2180bb919@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260707T000000Z
+
+DTEND:20260707T030000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Lumen Field\, Seattle\, Washington
+
+DESCRIPTION:Round of 16\\nMatch 94\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:95-world-cup-2026-9854453b-6049-46aa-8d75-9b4e31dee16e@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260707T160000Z
+
+DTEND:20260707T190000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Round of 16\\nMatch 95\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:96-world-cup-2026-abe43286-4807-4a28-af42-ca8cb12a9fa5@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260707T200000Z
+
+DTEND:20260707T230000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:BC Place\, Vancouver\, Canada
+
+DESCRIPTION:Round of 16\\nMatch 96\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:97-world-cup-2026-c49e629c-de47-4bde-b83e-a955bebbebb0@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260709T200000Z
+
+DTEND:20260709T230000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Gillette Stadium\, Foxborough\, Massachusetts
+
+DESCRIPTION:Quarterfinal\\nMatch 97\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:98-world-cup-2026-4e8c5fcf-9d78-4a3c-86c4-a75af37bf65e@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260710T190000Z
+
+DTEND:20260710T220000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:SoFi Stadium\, Inglewood\, California
+
+DESCRIPTION:Quarterfinal\\nMatch 98\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:99-world-cup-2026-c32aa240-fbca-4601-bce1-e6d4e000d049@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260711T210000Z
+
+DTEND:20260712T000000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida
+
+DESCRIPTION:Quarterfinal\\nMatch 99\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:100-world-cup-2026-61125fe1-8667-4afe-a982-b18f4f617112@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260712T010000Z
+
+DTEND:20260712T040000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Arrowhead Stadium\, Kansas City\, Missouri
+
+DESCRIPTION:Quarterfinal\\nMatch 100\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:101-world-cup-2026-17f12e48-4391-443e-9354-61cb6d32b81c@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260714T190000Z
+
+DTEND:20260714T220000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:AT&T Stadium\, Arlington\, Texas
+
+DESCRIPTION:Semifinal\\nMatch 101\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:102-world-cup-2026-ae9e5108-f4ca-4b93-acfe-d670fd86a4d9@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260715T190000Z
+
+DTEND:20260715T220000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:Mercedes-Benz Stadium\, Atlanta\, Georgia
+
+DESCRIPTION:Semifinal\\nMatch 102\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:103-world-cup-2026-553c2bc8-695d-458d-8a57-b29c4521c7ef@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260718T210000Z
+
+DTEND:20260719T000000Z
+
+SUMMARY:Loser vs Loser
+
+LOCATION:Hard Rock Stadium\, Miami Gardens\, Florida
+
+DESCRIPTION:Third-place Match\\nMatch 103\\nTeams: Loser vs Loser \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:104-world-cup-2026-237e90d3-bade-4533-94e7-40d97e8c85fc@openai.local
+
+DTSTAMP:20260606T192718Z
+
+DTSTART:20260719T190000Z
+
+DTEND:20260719T220000Z
+
+SUMMARY:Winner vs Winner
+
+LOCATION:MetLife Stadium\, East Rutherford\, New Jersey
+
+DESCRIPTION:Final\\nMatch 104\\nTeams: Winner vs Winner \\nStart time shown in Eastern Time. Knockout teams are TBA until results are known.
+
+END:VEVENT
+
+END:VCALENDAR
