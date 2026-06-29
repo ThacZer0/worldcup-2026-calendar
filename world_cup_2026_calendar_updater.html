@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>World Cup 2026 Calendar Updater</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: Arial, sans-serif; max-width: 900px; margin: 24px auto; padding: 0 16px; line-height: 1.45; }
+  label { display:block; font-weight:700; margin-top:12px; }
+  input { width:100%; padding:10px; box-sizing:border-box; font-size:16px; }
+  button { margin-top:16px; padding:12px 18px; font-size:16px; font-weight:700; cursor:pointer; }
+  pre { background:#111; color:#eee; padding:12px; overflow:auto; white-space:pre-wrap; min-height:180px; }
+  .row { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+  .small { color:#555; font-size:14px; }
+</style>
+</head>
+<body>
+<h1>World Cup 2026 Calendar Updater</h1>
+
+<p>This builds a fresh ICS from free World Cup data sources, then either downloads it or pushes it to your GitHub Pages repo.</p>
+
+<div class="row">
+  <div>
+    <label>GitHub username</label>
+    <input id="owner" value="thaczero">
+  </div>
+  <div>
+    <label>Repository</label>
+    <input id="repo" value="worldcup-2026-calendar">
+  </div>
+</div>
+
+<div class="row">
+  <div>
+    <label>Branch</label>
+    <input id="branch" value="main">
+  </div>
+  <div>
+    <label>ICS file path in repo</label>
+    <input id="path" value="world_cup_2026_clean_titles.ics">
+  </div>
+</div>
+
+<label>GitHub token, optional for pushing update</label>
+<input id="token" type="password" placeholder="Paste GitHub fine-grained token with Contents: Read and Write">
+<div class="small">No token = it only downloads the generated ICS. Token is kept only in this page while open.</div>
+
+<button id="updateBtn">Update Calendar</button>
+<button id="downloadBtn">Build and Download Only</button>
+
+<pre id="log">Ready.</pre>
+
+<script>
+const PRIMARY = {
+  games: "https://worldcup26.ir/get/games",
+  teams: "https://worldcup26.ir/get/teams",
+  stadiums: "https://worldcup26.ir/get/stadiums"
+};
+
+const BACKUP_MATCHES = [
+  "https://wcup2026.org/api/data.php?action=matches",
+  "https://wcup2026.org/api/data.php?action=all",
+  "https://raw.githubusercontent.com/openfootball/worldcup.json/master/2026/worldcup.json"
+];
+
+const FALLBACK_RANKS = {
+  "Argentina":1,"Spain":2,"France":3,"England":4,"Brazil":5,"Portugal":6,"Netherlands":7,"Belgium":8,"Germany":9,
+  "Croatia":10,"Morocco":12,"Colombia":13,"Uruguay":14,"Mexico":15,"United States":16,"Switzerland":17,
+  "Japan":18,"Senegal":19,"Iran":20,"Austria":22,"South Korea":23,"Australia":24,"Turkey":26,"Ecuador":27,
+  "Sweden":28,"Egypt":31,"Canada":33,"Norway":35,"Panama":36,"Algeria":38,"Czechia":39,"Scotland":40,
+  "Paraguay":41,"Tunisia":42,"Ivory Coast":47,"Qatar":48,"Saudi Arabia":49,"South Africa":50,"Iraq":58,
+  "Uzbekistan":59,"Cape Verde":60,"Ghana":61,"Jordan":62,"DR Congo":63,"Congo DR":63,
+  "Bosnia and Herzegovina":75,"Haiti":83,"Curacao":86,"New Zealand":89
+};
+
+function log(msg) {
+  const el = document.getElementById("log");
+  el.textContent += "\n" + msg;
+  el.scrollTop = el.scrollHeight;
+}
+
+async function fetchJson(url) {
+  const r = await fetch(url, {cache:"no-store"});
+  if (!r.ok) throw new Error(url + " returned " + r.status);
+  return await r.json();
+}
+
+function arrFromResponse(x) {
+  if (Array.isArray(x)) return x;
+  if (!x || typeof x !== "object") return [];
+  for (const k of ["data","matches","games","fixtures","result","items"]) if (Array.isArray(x[k])) return x[k];
+  if (x.data && typeof x.data === "object") {
+    for (const k of ["matches","games","fixtures"]) if (Array.isArray(x.data[k])) return x.data[k];
+  }
+  return [];
+}
+
+async function getLiveData() {
+  log("Fetching primary free API...");
+  try {
+    const gamesRaw = await fetchJson(PRIMARY.games);
+    const teamsRaw = await fetchJson(PRIMARY.teams).catch(() => []);
+    const stadiumsRaw = await fetchJson(PRIMARY.stadiums).catch(() => []);
+    return { source: PRIMARY.games, matches: arrFromResponse(gamesRaw), teams: arrFromResponse(teamsRaw), stadiums: arrFromResponse(stadiumsRaw) };
+  } catch (e) {
+    log("Primary failed: " + e.message);
+  }
+
+  for (const url of BACKUP_MATCHES) {
+    try {
+      log("Trying backup: " + url);
+      const raw = await fetchJson(url);
+      return { source:url, matches:arrFromResponse(raw), teams:[], stadiums:[] };
+    } catch (e) {
+      log("Backup failed: " + e.message);
+    }
+  }
+  throw new Error("No free source returned usable match data.");
+}
+
+function first(obj, keys) {
+  for (const k of keys) if (obj && obj[k] !== undefined && obj[k] !== null && obj[k] !== "") return obj[k];
+  return "";
+}
+
+function cleanName(v) {
+  if (!v) return "";
+  if (typeof v === "string") return v.trim();
+  if (typeof v === "object") return first(v, ["name_en","name","country","team","title","shortName","displayName","en"]) || "";
+  return String(v).trim();
+}
+
+function makeTeamMap(teams) {
+  const map = new Map();
+  for (const t of teams) {
+    const name = cleanName(t);
+    if (!name) continue;
+    map.set(String(first(t, ["id","_id","team_id","code","fifa_code","name"]) || name), t);
+    map.set(name.toLowerCase(), t);
+    const code = first(t, ["code","fifa_code","abbr","iso2","iso3"]);
+    if (code) map.set(String(code).toLowerCase(), t);
+  }
+  return map;
+}
+
+function makeStadiumMap(stadiums) {
+  const map = new Map();
+  for (const s of stadiums) {
+    const id = first(s, ["id","_id","stadium_id","venue_id","name"]);
+    if (id) map.set(String(id), s);
+    const name = cleanName(s);
+    if (name) map.set(name.toLowerCase(), s);
+  }
+  return map;
+}
+
+function findTeam(raw, side, teamMap) {
+  const candidates = side === "home"
+    ? ["home_team","homeTeam","team1","home","team_a","teamA","country1","home_name","homeTeamName"]
+    : ["away_team","awayTeam","team2","away","team_b","teamB","country2","away_name","awayTeamName"];
+
+  let val = first(raw, candidates);
+  if (!val && raw.teams) val = side === "home" ? first(raw.teams, ["home","team1","a"]) : first(raw.teams, ["away","team2","b"]);
+  let name = cleanName(val);
+  if (val && teamMap.has(String(val))) name = cleanName(teamMap.get(String(val))) || name;
+  if (name && teamMap.has(name.toLowerCase())) name = cleanName(teamMap.get(name.toLowerCase())) || name;
+  return name || "TBA";
+}
+
+function rankFor(name, teamMap) {
+  if (!name || /TBA|TBD|Winner|Runner|Group|Third/i.test(name)) return "";
+  const t = teamMap.get(name.toLowerCase());
+  const liveRank = t ? first(t, ["rank","ranking","fifa_rank","fifaRanking","world_rank","worldRanking"]) : "";
+  return liveRank || FALLBACK_RANKS[name] || "";
+}
+
+function teamLabel(name, teamMap) {
+  const rank = rankFor(name, teamMap);
+  return rank ? `${name} (${rank})` : name;
+}
+
+function statusOf(m) {
+  return String(first(m, ["status","match_status","state","phase","finished","complete"]) || "").toLowerCase();
+}
+
+function isFinal(m) {
+  const s = statusOf(m);
+  return s.includes("final") || s.includes("complete") || s.includes("finished") || s === "true";
+}
+
+function score(m, side) {
+  const keys = side === "home"
+    ? ["home_score","homeScore","score1","homeGoals","team1_score","goals_home"]
+    : ["away_score","awayScore","score2","awayGoals","team2_score","goals_away"];
+  let v = first(m, keys);
+  if (v === "" && m.score && typeof m.score === "object") v = side === "home" ? first(m.score, ["home","team1","a"]) : first(m.score, ["away","team2","b"]);
+  return v;
+}
+
+function kickoff(m) {
+  const v = first(m, ["kickoff","date_time","datetime","dateTime","start_time","startTime","utc_date","utcDate","time","date"]);
+  if (!v) return null;
+  const d = new Date(v);
+  return isNaN(d) ? null : d;
+}
+
+function venue(m, stadiumMap) {
+  let raw = first(m, ["stadium","venue","location","stadium_id","venue_id"]);
+  if (raw && typeof raw !== "object" && stadiumMap.has(String(raw))) raw = stadiumMap.get(String(raw));
+  if (raw && typeof raw === "string" && stadiumMap.has(raw.toLowerCase())) raw = stadiumMap.get(raw.toLowerCase());
+  if (raw && typeof raw === "object") {
+    const name = cleanName(raw);
+    const city = first(raw, ["city","host_city","city_en"]);
+    const country = first(raw, ["country","country_en"]);
+    return [name, city, country].filter(Boolean).join(", ");
+  }
+  return [cleanName(raw), first(m, ["city","host_city"]), first(m, ["country","host_country"])].filter(Boolean).join(", ") || "TBA";
+}
+
+function stage(m) {
+  return first(m, ["stage","round","group","matchday","phase_name","competition_stage"]) || "";
+}
+
+function pad(n) { return String(n).padStart(2,"0"); }
+function icsDateUTC(d) {
+  return d.getUTCFullYear() + pad(d.getUTCMonth()+1) + pad(d.getUTCDate()) + "T" + pad(d.getUTCHours()) + pad(d.getUTCMinutes()) + pad(d.getUTCSeconds()) + "Z";
+}
+function escapeICS(s) {
+  return String(s ?? "").replace(/\\/g,"\\\\").replace(/\n/g,"\\n").replace(/,/g,"\\,").replace(/;/g,"\\;");
+}
+function fold(line) {
+  const out = [];
+  let s = line;
+  while (new TextEncoder().encode(s).length > 75) {
+    let cut = 75;
+    while (new TextEncoder().encode(s.slice(0, cut)).length > 75) cut--;
+    out.push(s.slice(0, cut));
+    s = " " + s.slice(cut);
+  }
+  out.push(s);
+  return out.join("\r\n");
+}
+
+function buildICS(data) {
+  const teamMap = makeTeamMap(data.teams || []);
+  const stadiumMap = makeStadiumMap(data.stadiums || []);
+  const now = new Date();
+  const endTournament = new Date("2026-07-20T04:00:00Z");
+  let events = [];
+
+  for (const m of data.matches || []) {
+    const start = kickoff(m);
+    if (!start || start > endTournament) continue;
+
+    const home = findTeam(m, "home", teamMap);
+    const away = findTeam(m, "away", teamMap);
+    const hs = score(m, "home");
+    const as = score(m, "away");
+
+    let summary = isFinal(m) && hs !== "" && as !== ""
+      ? `${teamLabel(home, teamMap)} ${hs}–${as} ${teamLabel(away, teamMap)}`
+      : `${teamLabel(home, teamMap)} vs ${teamLabel(away, teamMap)}`;
+
+    const endTime = new Date(start.getTime() + 2 * 60 * 60 * 1000);
+    const id = first(m, ["id","_id","match_id","game_id","number","matchNumber"]) || (start.toISOString()+"-"+home+"-"+away);
+    const loc = venue(m, stadiumMap);
+    const desc = [
+      stage(m),
+      "Status: " + (first(m, ["status","match_status","state"]) || "Scheduled"),
+      "Kickoff ET: " + start.toLocaleString("en-US", {timeZone:"America/New_York", dateStyle:"medium", timeStyle:"short"}),
+      "Source: " + data.source,
+      "Last calendar update: " + now.toISOString()
+    ].filter(Boolean).join("\n");
+
+    events.push([
+      "BEGIN:VEVENT",
+      "UID:wc2026-" + String(id).replace(/[^a-zA-Z0-9_-]/g,"") + "@thaczero.github.io",
+      "DTSTAMP:" + icsDateUTC(now),
+      "DTSTART:" + icsDateUTC(start),
+      "DTEND:" + icsDateUTC(endTime),
+      "SUMMARY:" + escapeICS(summary),
+      "LOCATION:" + escapeICS(loc),
+      "DESCRIPTION:" + escapeICS(desc),
+      "END:VEVENT"
+    ].map(fold).join("\r\n"));
+  }
+
+  events.sort((a,b) => ((a.match(/DTSTART:(\d+T\d+Z)/)||[])[1] || "").localeCompare((b.match(/DTSTART:(\d+T\d+Z)/)||[])[1] || ""));
+
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Thaczero//World Cup 2026 Live Calendar//EN","CALSCALE:GREGORIAN","METHOD:PUBLISH","X-WR-CALNAME:World Cup 2026","X-WR-TIMEZONE:America/New_York",...events,"END:VCALENDAR"].join("\r\n") + "\r\n";
+}
+
+function downloadICS(text, filename) {
+  const blob = new Blob([text], {type:"text/calendar;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+async function build() {
+  document.getElementById("log").textContent = "Starting update...";
+  const data = await getLiveData();
+  log("Matches found: " + data.matches.length);
+  const ics = buildICS(data);
+  log("Calendar events built: " + (ics.match(/BEGIN:VEVENT/g) || []).length);
+  return ics;
+}
+
+async function pushToGitHub(ics) {
+  const owner = document.getElementById("owner").value.trim();
+  const repo = document.getElementById("repo").value.trim();
+  const branch = document.getElementById("branch").value.trim();
+  const path = document.getElementById("path").value.trim();
+  const token = document.getElementById("token").value.trim();
+
+  if (!token) {
+    downloadICS(ics, path.split("/").pop());
+    log("No token entered. Downloaded ICS instead of pushing to GitHub.");
+    return;
+  }
+
+  const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${encodeURIComponent(path).replaceAll("%2F","/")}`;
+  log("Reading current GitHub file SHA...");
+  const getResp = await fetch(apiUrl + "?ref=" + encodeURIComponent(branch), {
+    headers: { "Authorization":"Bearer " + token, "Accept":"application/vnd.github+json" }
+  });
+
+  let sha = null;
+  if (getResp.ok) sha = (await getResp.json()).sha;
+  else if (getResp.status !== 404) throw new Error("GitHub read failed: " + getResp.status + " " + await getResp.text());
+
+  log("Committing updated ICS...");
+  const content = btoa(unescape(encodeURIComponent(ics)));
+  const putResp = await fetch(apiUrl, {
+    method:"PUT",
+    headers: {"Authorization":"Bearer " + token, "Accept":"application/vnd.github+json", "Content-Type":"application/json"},
+    body: JSON.stringify({message:"Update World Cup 2026 calendar", content, sha, branch})
+  });
+
+  if (!putResp.ok) throw new Error("GitHub write failed: " + putResp.status + " " + await putResp.text());
+  log("DONE. GitHub Pages should republish in about 1-2 minutes.");
+  log("Calendar URL stays the same.");
+}
+
+document.getElementById("updateBtn").addEventListener("click", async () => {
+  try { const ics = await build(); await pushToGitHub(ics); }
+  catch (e) { log("ERROR: " + e.message); }
+});
+
+document.getElementById("downloadBtn").addEventListener("click", async () => {
+  try { const ics = await build(); downloadICS(ics, document.getElementById("path").value.trim().split("/").pop()); log("Downloaded ICS."); }
+  catch (e) { log("ERROR: " + e.message); }
+});
+</script>
+</body>
+</html>
