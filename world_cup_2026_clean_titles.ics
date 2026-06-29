@@ -25,62 +25,62 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:9cb1eda646e9f83501c2d61b29a602a6@worldcupupdater
-DTSTAMP:20260629T135948Z
+DTSTAMP:20260629T140101Z
 DTSTART;TZID=America/New_York:20260611T150000
 DTEND;TZID=America/New_York:20260611T170000
 SUMMARY:Mexico (14) 2–0 South Africa (55)
 LOCATION:Estadio Azteca
 DESCRIPTION:Stage: World Cup\nKickoff (Eastern): Thursday\, June 11\, 2026 
  03:00 PM EDT\nStatus: Completed\nVenue: Estadio Azteca\nSource used: TheSp
- ortsDB\nLast update: 2026-06-29 13:59 UTC
+ ortsDB\nLast update: 2026-06-29 14:01 UTC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c070fa974ad6ce81cfc18084857d8543@worldcupupdater
-DTSTAMP:20260629T135948Z
+DTSTAMP:20260629T140101Z
 DTSTART;TZID=America/New_York:20260611T220000
 DTEND;TZID=America/New_York:20260612T000000
 SUMMARY:South Korea (22) 2–1 Czech Republic (39)
 LOCATION:Estadio Akron
 DESCRIPTION:Stage: World Cup\nKickoff (Eastern): Thursday\, June 11\, 2026 
  10:00 PM EDT\nStatus: Completed\nVenue: Estadio Akron\nSource used: TheSpo
- rtsDB\nLast update: 2026-06-29 13:59 UTC
+ rtsDB\nLast update: 2026-06-29 14:01 UTC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:feadb4148c74a916c7612ad6e84e2028@worldcupupdater
-DTSTAMP:20260629T135948Z
+DTSTAMP:20260629T140101Z
 DTSTART;TZID=America/New_York:20260612T150000
 DTEND;TZID=America/New_York:20260612T170000
 SUMMARY:Canada (27) 1–1 Bosnia-Herzegovina (59)
 LOCATION:BMO Field
 DESCRIPTION:Stage: World Cup\nKickoff (Eastern): Friday\, June 12\, 2026 03
  :00 PM EDT\nStatus: Completed\nVenue: BMO Field\nSource used: TheSportsDB\
- nLast update: 2026-06-29 13:59 UTC
+ nLast update: 2026-06-29 14:01 UTC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:8e49ab958d2b627630e0d9cd8f542d70@worldcupupdater
-DTSTAMP:20260629T135948Z
+DTSTAMP:20260629T140101Z
 DTSTART;TZID=America/New_York:20260612T210000
 DTEND;TZID=America/New_York:20260612T230000
 SUMMARY:USA (16) 4–1 Paraguay (49)
 LOCATION:SoFi Stadium
 DESCRIPTION:Stage: World Cup\nKickoff (Eastern): Friday\, June 12\, 2026 09
  :00 PM EDT\nStatus: Completed\nVenue: SoFi Stadium\nSource used: TheSports
- DB\nLast update: 2026-06-29 13:59 UTC
+ DB\nLast update: 2026-06-29 14:01 UTC
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:46c54ab371b4be9e773fb956b7ea33c7@worldcupupdater
-DTSTAMP:20260629T135948Z
+DTSTAMP:20260629T140101Z
 DTSTART;TZID=America/New_York:20260613T180000
 DTEND;TZID=America/New_York:20260613T200000
 SUMMARY:Brazil (5) 1–1 Morocco (12)
 LOCATION:MetLife Stadium
 DESCRIPTION:Stage: World Cup\nKickoff (Eastern): Saturday\, June 13\, 2026 
  06:00 PM EDT\nStatus: Completed\nVenue: MetLife Stadium\nSource used: TheS
- portsDB\nLast update: 2026-06-29 13:59 UTC
+ portsDB\nLast update: 2026-06-29 14:01 UTC
 STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
